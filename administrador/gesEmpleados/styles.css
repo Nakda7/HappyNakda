@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos de la tabla */
+  .users-table {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos de los enlaces de acciones en la tabla */
+  .users-table--edit,
+  .users-table--delete {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  
+  .users-table--edit {
+    background-color: #2196F3;
+  }
+  
+  .users-table--delete {
+    background-color: #F44336;
+    margin-left: 5px;
+  }
+
+
+ /* Estilo para el contenedor del formulario */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilo para el formulario */
+.form-container form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Estilo para el espacio entre los elementos del formulario */
+.form-container label,
+.form-container input[type="text"],
+.form-container input[type="submit"] {
+  margin-right: 10px;
+}

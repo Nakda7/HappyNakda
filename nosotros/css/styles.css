@@ -1,0 +1,199 @@
+/* Estilos para la página de perfil */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: 45rem;
+  }
+  
+  .content p{
+    margin-left: 10rem;
+    font-size: 1.8rem;
+  }
+  
+  .titulo{
+    margin-left: 30rem;
+  }
+
+  .container {
+    max-width: 120rem;
+    margin-left: 5rem;
+
+  }
+  
+  
+  /* UTILIDADES */
+  .text-center {
+    text-align: center;
+  }
+  
+  /*HEADER + NAV PRINCIPAL + HERO */
+  .nombre-sitio {
+    margin-top: 2rem;
+    font-size: 4.5rem;
+    text-align: center;
+    font-size: 55px;
+  }
+  
+  .header {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: -4rem;
+    margin-top: -4rem;
+  }
+  
+  .header-a {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  
+  }
+  
+  .happy-logo {
+    height: 8rem;
+    margin-left: 0;
+    margin-bottom: -8rem;
+    margin-top: 1rem;
+    width: 90px;
+    height: auto;
+  }
+  
+  .nombre-nakda {
+    color: #ffe417;
+  }
+  
+  .nombre-happy {
+    color: rgb(20, 20, 20);
+  }
+  
+  .contenedor-navegacion {
+    border-top: .1rem solid #e1e1e1;
+    padding-top: -10rem;
+  }
+  
+  .nav-principal {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* SNIPETS */
+  html {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 62.5%; /* 1REM = 10px */
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  
+
+  .texto-n{
+    text-align: justify;
+    font-size: 25px;
+  }
+
+  .titulo{
+    font-size: 60px;
+  }
+  
+  .image-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .image-right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .imagen-xd{
+    width: 800rem;
+  }
+  
+  
+  
+  .txt-footer{
+    font-size: 30px;
+    margin-left: -180px;
+  }
+  
+  .txt-footer2{
+    font-size: 30px;
+    margin-left: -120px;
+  }
+  
+  .txt-footer3{
+    font-size: 30px;
+    margin-left: -250px;
+  }
+  
+  
+  
+  .site-footer {
+    border-top: 1px solid #e1e1e1;
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  .site-footer h3 {
+    margin-bottom: .5rem;
+    text-align: center;
+  }
+  .grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .footer-menu a{
+    display: block;
+  }
+  
+  .footer-menu{
+    padding-left: 3rem;
+    border-right: 1px solid grey;
+  }
+  
+  .footer-menu a:hover{
+    color: blueviolet;
+  }
+  
+  .copyright{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 15px;
+    color: #888888;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

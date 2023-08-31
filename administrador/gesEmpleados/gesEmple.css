@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+
+  }
+
+  
+  
+  #employee-list {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form h2 {
+    margin-bottom: 10px;
+    
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  /* Estilo para la tabla */
+.campos {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+/* Estilo para las celdas */
+td, th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Estilo para las filas impares */
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para el encabezado de la tabla */
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+/* Estilo para el contenedor del formulario */
+.form-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilo para el formulario */
+.form-container form {
+  display: inline-block;
+}
+

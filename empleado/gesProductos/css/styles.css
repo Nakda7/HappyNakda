@@ -1,0 +1,335 @@
+:root {
+    --primario: #ffe417;
+    --secundario: #ffffff;
+    --gris: #3B3B3B;
+    --blanco: #FFFFFF;
+    --negro: #1F1E1E;
+    --grisClaro: #e1e1e1;
+    --rojo: #be0e0e;
+    --azul: #4927d4;
+
+    --separacion: 5rem;
+
+    --fuentePrincipal: 'Roboto', sans-serif;
+    --fuenteSecundaria: 'Lato', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding-top: 2.5rem;
+    padding-bottom: 14rem;
+}
+
+/** Globales **/
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    font-family: var(--fuenteSecundaria);
+    margin: calc( var(--separacion) / 2 ) 0 ;
+}
+h1 {
+    font-size: 4.4rem;
+}
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/** Utilidades **/
+.text-center {
+    text-align: center;
+}
+
+/** Degradados **/
+
+.degradado-verde {
+    color: transparent;
+    background: linear-gradient(to right, var(--primario) 0%, var(--secundario) 100% );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.degradado-negro {
+    color: transparent;
+    background: linear-gradient(to right, var(--negro) 0%, var(--secundario) 100% );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.degradado-rgb {
+    color: transparent;
+    background: linear-gradient(to right, var(--rojo) 0%, var(--azul) 100% );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+
+/* Header **/
+.header {
+    background-color: #fbfbfb; /* Fondo gris claro */
+    display: grid;
+    padding: calc( var(--separacion) * 1 ) 0; 
+    padding-top: 10rem;
+    color: var(--negro);
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+/*HEADER + NAV PRINCIPAL + HERO */
+/*HEADER + NAV PRINCIPAL + HERO */
+.nombre-sitio{
+    font-size: 2.5rem;
+    text-align: center
+}
+header{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: -5.2rem;
+    margin-top: -6rem;
+}
+
+.header-a{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    margin-left: 30rem;
+    margin-right: 20rem;
+    padding-right: 10rem;
+}
+
+.happy-logo{
+    height: 6rem;
+    margin-bottom: -8rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: -2rem;
+
+}
+
+
+
+.nombre-nakda{
+    color: #ffe417;
+}
+
+.nombre-happy{
+    color:rgb(20, 20, 20);
+}
+
+.contenedor-navegacion{
+    border-top: .1rem solid #e1e1e1;
+}
+
+.nav-principal{
+    padding: 1rem 0;
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-principal a{
+    color: #1F1E1E;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+.perfil-index{
+    display: inline-block;
+}
+
+.carrito-index{
+    display: inline-block;
+}
+
+.logo-menu{
+    margin-top: 5rem;
+    margin-left: 0rem;
+    width: 3rem;
+    
+}
+
+.logo-perfil{
+    margin-top: 5rem;
+    width: 3rem;
+    
+}
+
+.logo-carrito{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 3rem;
+    
+}
+
+.logo-login{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 3rem;
+    
+}
+
+.banner-logo-envio{
+    width: 3.2rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+
+}
+
+.banner-envio{
+    background-color: #121111;
+    display: flex;
+    color: #e1e1e1;
+    font-weight: 600;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+
+/* Estilo básico del menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    color: #1F1E1E;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;;
+    background-color: transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 7rem;
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 0.2rem;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* FORMULARIO ALTA **/
+
+    
+.tittle-gestion-productos{
+    margin: 0;
+    font-size: 3rem;
+    background-color: #ffe417;
+}
+
+.tittle-alta{
+    font-size: 2.5rem;
+}
+
+
+.form-alta{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7rem;
+    
+  }
+
+.form-alta input{
+    width: 47rem;
+    height: 3rem;
+  }
+
+.form-update{
+    
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+.form-update input{
+    width: 47rem;
+    height: 3rem;
+  }
+
+.form-baja{
+    margin-bottom: 7WWWrem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+.form-baja input{
+    width: 47rem;
+    height: 3rem;
+  }
+
+
+.submit-button{
+    background-color: #ffe417;
+    color:#000000
+  }
+
+.submit-button:hover{
+    background-color: #ffe417a1;
+    color: #000000;
+    cursor: pointer ;
+    cursor: hand;
+  }
+  
+  
